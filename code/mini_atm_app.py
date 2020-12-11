@@ -253,6 +253,8 @@ def main():
         print("Enter 'Y' for yes.")
         print("Enter anything else for no.")
         continue_using = input("Do you want to continue using 'Mini ATM App'? ")
+    # Automatically saving the bank account database
+    save_bank_account_database(new_bank_account_database, file_name)
     sys.exit()
 
 
